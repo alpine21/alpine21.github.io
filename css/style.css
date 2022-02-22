@@ -1496,9 +1496,17 @@ footer p a {
   .nav .menu li a::after {
     font-size: 4.2rem;
   }
-
+   
+  .skills .titre::after {
+    margin-bottom: -25px;
+  }
+       
   .projets .titre::after {
     margin-bottom: 0px;
+  }
+  
+  .contact .titre::after {
+    margin-bottom: -25px;
   }
 }
 
@@ -1534,7 +1542,7 @@ footer p a {
   }
 
   .me .titre::after {
-    margin-bottom: -25px;
+    margin-bottom: 0px;
   }
 
   .skills .titre::after {
@@ -1542,7 +1550,7 @@ footer p a {
   }
 
   .projets .titre::after {
-    margin-bottom: -25px;
+    margin-bottom: 0px;
   }
 
   .contact .titre::after {
