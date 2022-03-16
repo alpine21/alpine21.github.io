@@ -536,14 +536,20 @@ footer {
 
 .projets .projets-contenu .carte-un {
   width: calc(33% - 20px);
+/*
   background: url(/img/projets-porto.PNG);
+*/
+  background: lightgray;
   flex-direction: column;
   text-align: center;
   border-radius: 6px;
   padding: 50px 25px;
   height: 100%;
+/*
   transform-style: 100%;
   transition: all 1s ease;
+*/
+  transition: all 0.3s ease;
   margin: auto;
   cursor: pointer;
 }
@@ -578,7 +584,10 @@ footer {
 
 .projets .projets-contenu .carte-un:hover {
   background: royalblue;
+/*
   transform: rotateY(0deg);
+*/
+/* A faire plus tard */
 }
 
 .projets .projets-contenu .carte-deux:hover {
@@ -588,12 +597,16 @@ footer {
 
 .projets .projets-contenu .carte-trois:hover {
   background: royalblue;
+
   transform: rotateY(0deg);
 }
 
 .projets .projets-contenu .carte-un .boite {
   backface-visibility: hidden;
+/*
   transform: rotateY(180deg);
+*/
+/* a faire plus tard*/
 }
 
 .projets .projets-contenu .carte-un:hover .boite {
