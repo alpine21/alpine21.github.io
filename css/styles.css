@@ -2927,3 +2927,56 @@ footer p a:hover {
     object-fit: cover;
   }
 }
+
+
+@media (max-width: 408px) {
+  /**/
+  .get-in-touch .title::after {
+    margin-bottom: -25px;
+  }
+}
+
+@media (max-width: 393px) {
+  /**/
+  .get-in-touch .title::after {
+    margin-bottom: -25px;
+  }
+}
+
+@media (max-width: 393px) {
+  /**/
+  .get-in-touch .get-in-touch-content .content-left iframe {
+    height: 240px;
+    width: 240px;
+    margin-left: -2px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 393px) {
+  /**/
+  .projects .title::after {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 302px) {
+  /**/
+  .projects .title::after {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 301px) {
+  /**/
+  .projects .title::after {
+    margin-bottom: -25px;
+  }
+}
+
+@media (max-width: 297px) {
+  /**/
+  .about-me .title::after {
+    margin-bottom: -25px;
+  }
+}
