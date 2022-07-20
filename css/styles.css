@@ -2449,7 +2449,7 @@ footer p a:hover {
 
 @media (max-width: 880px) {
   .home .home-content .text-2 {
-    margin-right: 0;
+    margin-right: 30px;
   }
 }
 
@@ -2458,6 +2458,10 @@ footer p a:hover {
     margin-left: -1%;
   }
 
+  .home .home-content .text-2 {
+    margin-right: 0px;
+  }
+  
   .home .home-content {
     width: calc(50% -10px);
   }
