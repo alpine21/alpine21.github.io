@@ -22,7 +22,7 @@ $(document).ready(function () {
   // = = = = = = = = = = Text Animation = = = = = = = = = = //
 
   var typed = new Typed(".text-home", {
-    strings: ["Administrateur", "Systèmes", "&", "Réseaux."],
+    strings: ["DUT", "R&T."],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
